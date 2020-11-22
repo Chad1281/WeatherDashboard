@@ -43,6 +43,7 @@ form {
 #city-input {
     width: 15rem;
     margin-right: 10px;
+    font-size: 1.5rem;
 }
 
 #city-list {
@@ -60,4 +61,5 @@ form {
 
 #current {
     background-color: rgba(245, 245, 245, 0.1);
+    padding: 20px;
 }
