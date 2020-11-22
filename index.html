@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.1/css/bulma.min.css"/>
+    <link href="./assets/style.css" rel="stylesheet">
+    <title>Weather Dashboard</title>
+</head>
+<body>
+    <header>Weather Dashboard</header>
+    <div id="container" class="columns">
+        <div id="cities" class="is-one-quarter">
+            <form>
+                <label for="city-input">Search for a city:</label>
+                <input type="text" id="city-input">
+                <input type="image" src="./assets/images/search.png" id="find-city">
+            </form>
+            <div id="city-list">
+                <ul>
+                    <li>test1</li>
+                </ul>
+            </div>
+        </div>
+        <div id="forecast" class="is-three-quarters">
+            <div id="current" class="hide">
+                
+            </div>
+            <div id="five-day" class="hide">
+                
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment-with-locales.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>  
+    <script src="./assets/script.js"></script>  
+</body>
+</html>
